@@ -1,0 +1,40 @@
+name: PodDraw StudioNet proofs
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: GenVM lint and direct tests
+        run: |
+          pip install -r requirements-dev.txt
+          genvm-lint download --version v0.2.16
+          genvm-lint check contracts/pod_draw.py
+          python -m pytest tests/direct -q
+          npm ci --no-audit --no-fund
+          node --test tests/rpc-preflight.test.cjs tests/beacon.test.cjs
+      - run: node scripts/bootstrap-ci.cjs
+      - name: Deploy and record unanimous consent
+        run: node scripts/prove.cjs setup
+      - name: First future-beacon draw and sealed-roster rejections
+        run: node scripts/prove.cjs first
+      - name: Second draw accounts for prior pairings
+        run: node scripts/prove.cjs second
+      - name: Withdrawal, renewed consent and third draw
+        run: node scripts/prove.cjs third
+      - run: node scripts/verify-proofs.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: studionet-proofs
+          path: proofs/*.json
