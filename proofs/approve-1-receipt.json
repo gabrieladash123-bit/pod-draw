@@ -1,0 +1,639 @@
+{
+  "hash": "0x72e97d4335ec49995fc7844eb0f992e7573a6b1e59779910fa6c494b7f91fbc6",
+  "from_address": "0x79d462B3f1c814dd9D10cA160FEC3941d64cFE97",
+  "to_address": "0x2B53ca2D6b5AF1586b5a17CDFD7Cfc4bc69253B3",
+  "data": {
+    "calldata": "DgZtZXRob2Q8YXBwcm92ZQ=="
+  },
+  "value": 0,
+  "type": 2,
+  "status": "FINALIZED",
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x22Eda431B7fBC1216baE3b077a78c973a8719c58": "agree",
+      "0x23A15A452F19D1B616276fedC5B8B51d69082959": "idle",
+      "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC": "idle",
+      "0x813890bC5bEDEB4F5437570962379F04738F18Cb": "agree",
+      "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539": "agree"
+    },
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 37,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 12839.313174728,
+          "host_loop_enter_wait_ms": 8,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 22
+          },
+          "host_total_handling_time_ms": 22,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 6
+          },
+          "host_first_method_received_s": 12839.313625263,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1258,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 37,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 12839.315489084,
+          "host_loop_enter_wait_ms": 10,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 13
+          },
+          "host_total_handling_time_ms": 13,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 6
+          },
+          "host_first_method_received_s": 12839.315913809,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1205,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      }
+    ],
+    "leader_receipt": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "result": "AAA=",
+        "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+        "gas_used": 0,
+        "eq_outputs": {},
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 37,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 12837.987670712,
+          "host_loop_enter_wait_ms": 5,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 10
+          },
+          "host_total_handling_time_ms": 10,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 2
+          },
+          "host_first_method_received_s": 12837.987813774,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1007,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "call_counts": {
+            "STORAGE_READ": 37,
+            "NOTIFY_FINISHED": 1
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 12839.312325828,
+          "host_loop_enter_wait_ms": 8,
+          "host_time_per_method_ms": {
+            "STORAGE_READ": 23
+          },
+          "host_total_handling_time_ms": 23,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 6
+          },
+          "host_first_method_received_s": 12839.31249244,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 1160,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+        "pending_transactions": []
+      }
+    ]
+  },
+  "gaslimit": 0,
+  "nonce": 0,
+  "r": null,
+  "s": null,
+  "v": null,
+  "created_at": "2026-11-19T07:07:04.124150+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x79d462B3f1c814dd9D10cA160FEC3941d64cFE97",
+  "triggered_by": null,
+  "triggered_on": null,
+  "triggered_transactions": [],
+  "appealed": false,
+  "timestamp_awaiting_finalization": 1795072027,
+  "appeal_failed": 0,
+  "appeal_undetermined": false,
+  "consensus_history": {
+    "consensus_results": [
+      {
+        "monitoring": {
+          "PENDING": 1795072025.2063513,
+          "ACCEPTED": 1795072027.883366,
+          "PROPOSING": 1795072025.2155356,
+          "REVEALING": 1795072027.8423169,
+          "COMMITTING": 1795072026.3727634,
+          "PROPOSING.LEADER.RUN_END": 1795072026.3057191,
+          "PROPOSING.LEADER.RUN_START": 1795072025.2464066,
+          "PROPOSING.LEADER.EXEC_START": 1795072025.241596,
+          "PROPOSING.VALIDATORS_SELECTED": 1795072025.2314632,
+          "COMMITTING.VALIDATORS_PREPARED": 1795072026.3849826,
+          "COMMITTING.VALIDATOR_0.RUN_END": 1795072027.6513867,
+          "COMMITTING.VALIDATOR_1.RUN_END": 1795072027.7562504,
+          "COMMITTING.VALIDATOR_2.RUN_END": 1795072027.7390208,
+          "COMMITTING.VALIDATOR_4.RUN_END": 1795072027.7793007,
+          "PROPOSING.TRANSACTION_EXECUTED": 1795072026.3344615,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1795072026.4253547,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1795072026.461123,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1795072026.4976146,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1795072026.5324526,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1795072026.568277,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1795072025.2512193,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1795072026.328448,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1795072026.4204273,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1795072026.4562864,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1795072026.4919946,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1795072026.52753,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1795072026.5630736,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1795072027.8003294,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1795072026.2836938,
+          "COMMITTING.VALIDATOR_0_END.attempt_0": 1795072027.7666585,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1795072027.7944582,
+          "COMMITTING.VALIDATOR_2_END.attempt_0": 1795072027.7896657,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1795072026.3901296,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1795072027.8055778,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1795072026.4302907,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1795072027.6914375,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1795072026.3953154,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1795072026.4660077,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1795072027.7611525,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1795072026.400174,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1795072026.502365,
+          "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1795072027.7441683,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1795072026.4053912,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1795072026.5376244,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1795072026.4101248,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1795072026.5731225,
+          "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1795072027.7842972,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1795072026.415639,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1795072025.2711012,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1795072025.266444,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1795072025.2365186,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1795072025.256774,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1795072025.2616196,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1795072027.616659,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1795072027.7508144,
+          "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1795072027.733579,
+          "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1795072027.7742078,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1795072026.4507222,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1795072026.4456358,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1795072026.4868906,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1795072026.4818842,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1795072026.5219622,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1795072026.517041,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1795072026.5578043,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1795072026.5527134,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1795072026.592642,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1795072026.588019,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1795072026.4350476,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1795072026.4403052,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1795072026.4708593,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1795072026.4764652,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1795072026.5069833,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1795072026.5119867,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1795072026.5427978,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1795072026.54784,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1795072026.578241,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1795072026.5831573
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AAA=",
+            "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+            "gas_used": 0,
+            "eq_outputs": {},
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 37,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 12837.987670712,
+              "host_loop_enter_wait_ms": 5,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 10
+              },
+              "host_total_handling_time_ms": 10,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 2
+              },
+              "host_first_method_received_s": 12837.987813774,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1007,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 37,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 12839.312325828,
+              "host_loop_enter_wait_ms": 8,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 23
+              },
+              "host_total_handling_time_ms": 23,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 6
+              },
+              "host_first_method_received_s": 12839.31249244,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1160,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ],
+        "consensus_round": "Accepted",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 37,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 12839.313174728,
+              "host_loop_enter_wait_ms": 8,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 22
+              },
+              "host_total_handling_time_ms": 22,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 6
+              },
+              "host_first_method_received_s": 12839.313625263,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1258,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "DgZtZXRob2Q8YXBwcm92ZQ==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "call_counts": {
+                "STORAGE_READ": 37,
+                "NOTIFY_FINISHED": 1
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 12839.315489084,
+              "host_loop_enter_wait_ms": 10,
+              "host_time_per_method_ms": {
+                "STORAGE_READ": 13
+              },
+              "host_total_handling_time_ms": 13,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 6
+              },
+              "host_first_method_received_s": 12839.315913809,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 1205,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "951456d2de42bcf9eb7ca3ddabd09f91e015ef5c099ac8cfdffae8d5525a451e",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          }
+        ]
+      }
+    ],
+    "current_monitoring": {
+      "FINALIZED": 1795072057.4406686,
+      "COMMITTING.VALIDATOR_3.RUN_END": 1795072028.0072422,
+      "COMMITTING.VALIDATOR_3.RECEIPT_CREATED": 1795072028.012315,
+      "COMMITTING.VALIDATOR_3.EXECUTION_FINISHED": 1795072028.0011923
+    },
+    "current_status_changes": [
+      "FINALIZED"
+    ]
+  },
+  "timestamp_appeal": null,
+  "appeal_processing_time": 0,
+  "config_rotation_rounds": 3,
+  "num_of_initial_validators": 5,
+  "last_vote_timestamp": "1795072027",
+  "rotation_count": 0,
+  "appeal_leader_timeout": false,
+  "leader_timeout_validators": [],
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9014880808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b8e427241a9900000000000000000000000079d462b3f1c814dd9d10ca160fec3941d64cfe970000000000000000000000002b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b30000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000013d2900e066d6574686f643c617070726f766500000000000000000000000000008301e481a05e412ba9ee901f3f44ea524de5df0093305c01ec20aa2ae143c2963ab3afb861a02b1ca0b5705851261edee114d34d3eae89c75dbdd1f20d2b291ec2476658d1fa"
+  },
+  "value_credited": false,
+  "current_timestamp": "1795072060",
+  "sender": "0x79d462B3f1c814dd9D10cA160FEC3941d64cFE97",
+  "recipient": "0x2B53ca2D6b5AF1586b5a17CDFD7Cfc4bc69253B3",
+  "tx_slot": "0",
+  "created_timestamp": "1795072024",
+  "random_seed": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "tx_id": "0x72e97d4335ec49995fc7844eb0f992e7573a6b1e59779910fa6c494b7f91fbc6",
+  "read_state_block_range": {
+    "activation_block": "0",
+    "processing_block": "0",
+    "proposal_block": "0"
+  },
+  "activator": "0x22Eda431B7fBC1216baE3b077a78c973a8719c58",
+  "last_leader": "0x22Eda431B7fBC1216baE3b077a78c973a8719c58",
+  "result_name": "MAJORITY_AGREE",
+  "tx_data": "d2900e066d6574686f643c617070726f766500",
+  "tx_execution_hash": "0x898d18f780d2b44ba1a88052fa42026e54b25ce6d68f62789a276b008400f1a3",
+  "eq_blocks_outputs": "0xcdc6c28000c0c080c5c480c28000",
+  "messages": [],
+  "queue_type": "0",
+  "queue_position": "0",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x22Eda431B7fBC1216baE3b077a78c973a8719c58",
+      "0x88E148Da14d45c5a5DD2DB25E776eBCBCe0Df539",
+      "0x813890bC5bEDEB4F5437570962379F04738F18Cb",
+      "0x23A15A452F19D1B616276fedC5B8B51d69082959",
+      "0x240d2d7c8DF220110c26cfFFC532479319Cca0dC"
+    ],
+    "validator_votes_hash": [
+      "0xc6962df01321710da637fc41a9924ce55a621c0cb8bb8dd2576eb7e62ed68ba8",
+      "0x367b9db856d0d6d00e35c1e1e459f9aa14eac11632e21877885f2ce587684777",
+      "0x6b3b07b0078f4ce982adcba5ea161c94358df07815db8af68f3909030b2f1dd4",
+      "0x906277f46239da5dbcb52fede1018153c516d82da05e8d5197cfbf9f44f9c29c",
+      "0xc4ec3ea4d0cdb7e7383ae25d80c5c7bb0845421dd0072fc184d5de5aa9c22d8a"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      1,
+      5,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "IDLE"
+    ]
+  }
+}

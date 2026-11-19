@@ -1,0 +1,2010 @@
+{
+  "contract": "0x2B53ca2D6b5AF1586b5a17CDFD7Cfc4bc69253B3",
+  "deployment": "0x7a2fc49351f55c129d1e1b5faee6164723e2df8b6f8181e81e2f9f9d44031459",
+  "source_sha256": "318cdd104da92a7145622876f4981b447a9a45f0e893c691f69b50e6e226467e",
+  "revision": "8a23c4e248f318b5d3dacad74c12f9ffeecab3c6",
+  "chain": {
+    "public_key": "83cf0f2896adee7eb8b5f01fcad3912212c437e0073e911fb90022d3e760183c8c4b450b6a0a6c3ac6a5776a2d1064510d1fec758c921cc22b0e17e63aaf4bcb5ed66304de9cf809bd274ca73bab4af5a6e9c76a4bc09e76eae8991ef5ece45a",
+    "period": 3,
+    "genesis_time": 1692803367,
+    "hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+    "groupHash": "f477d5c89f21a17c863a7f937c6a6d15859414d2be09cd448d4279af331c5d3e",
+    "schemeID": "bls-unchained-g1-rfc9380",
+    "metadata": {
+      "beaconID": "quicknet"
+    }
+  },
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x7a2fc49351f55c129d1e1b5faee6164723e2df8b6f8181e81e2f9f9d44031459",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "args": [
+          [
+            "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+            "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+            "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+            "0x82429bedf893e0450c5b2052ef615d042b14a235",
+            "0xb80a503ccfece555d67d526909a9445d88b04201",
+            "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+          ],
+          [
+            "a",
+            "a",
+            "b",
+            "b",
+            "c",
+            "c"
+          ]
+        ]
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "blocked-outsider",
+      "hash": "0x861748ad65c00c41fb6ecdfc38681c043e3f028714b99a2e7ab09dfc74848be8",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x2890ef2e457a405af8020e4009e8cedd0a39f64e",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": "Only a registered member",
+      "state": {
+        "approvals": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "approve-0",
+      "hash": "0x64d25ceaf3e616be71ab8edbf9da1ace78f5a3b805384046a1bea7fbb26bbb68",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "approve-1",
+      "hash": "0x72e97d4335ec49995fc7844eb0f992e7573a6b1e59779910fa6c494b7f91fbc6",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "approve-2",
+      "hash": "0x4ca7d9630e92b10e5d1ee6496c1803baf1b606eb499fce6d8e0b7dc76c91ef91",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "signer": "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "approve-3",
+      "hash": "0xfa31e4747c44899c2bda27ab9fe1720aa0d2f20ab2a3879bfc4e0e72a1ca91f2",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x82429bedf893e0450c5b2052ef615d042b14a235",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "approve-4",
+      "hash": "0xe5df8b7d85e10080cb67c3869abec03f381ed0fd69d4ddb20260023e5f84ce1a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "signer": "0xb80a503ccfece555d67d526909a9445d88b04201",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "approve-5",
+      "hash": "0xa98533cc683a357f6e32a4cd7baaa8d71bd8ffa15347dbc269e7c478ee3260ca",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe2f30bb40acc1a8a969459a56526eacd751fd102",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 0,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": []
+    },
+    {
+      "label": "seal-1",
+      "hash": "0xbf77617026c79bf87b679e32578149c47da61bf723f5d43c36756ba2f9616844",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "seal",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "SEALED",
+        "rounds": 0,
+        "sealed_at": 1795072217,
+        "target": 34089658,
+        "target_time": 1795072338
+      },
+      "results": []
+    },
+    {
+      "label": "blocked-withdraw",
+      "hash": "0x7968750a3fbab37133d8c308de58e42ca5ed56eaabc3e70412c32a738fc646db",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "withdraw",
+        "args": []
+      },
+      "error": "Roster is sealed",
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 0,
+          "0-3": 0,
+          "0-4": 0,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 0,
+          "1-4": 0,
+          "1-5": 0,
+          "2-3": 0,
+          "2-4": 0,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 0,
+          "4-5": 0
+        },
+        "phase": "SEALED",
+        "rounds": 0,
+        "sealed_at": 1795072217,
+        "target": 34089658,
+        "target_time": 1795072338
+      },
+      "results": []
+    },
+    {
+      "label": "draw-1",
+      "hash": "0xaa3f48130eaa8a696d9555709c0d278db17bd0baf7ffefdfde121663f0e51ca7",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "draw",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 0,
+          "0-4": 1,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 1,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 1,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        }
+      ]
+    },
+    {
+      "label": "blocked-redraw",
+      "hash": "0xa266028c5028eea2873efd313397425263fa49bb6fa0033295ffc899b24d2b7d",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "draw",
+        "args": []
+      },
+      "error": "No sealed round",
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 0,
+          "0-4": 1,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 1,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 1,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        }
+      ]
+    },
+    {
+      "label": "seal-2",
+      "hash": "0x43581f177c85cff93c6012ba3509ba043ad467f21d649d119d4afa3f3c92bb43",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "seal",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 0,
+          "0-4": 1,
+          "0-5": 0,
+          "1-2": 0,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 1,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 0,
+          "3-4": 0,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "SEALED",
+        "rounds": 1,
+        "sealed_at": 1795072423,
+        "target": 34089727,
+        "target_time": 1795072545
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        }
+      ]
+    },
+    {
+      "label": "draw-2",
+      "hash": "0xe314ae37962f52668fdc9a485bf279927bd4d927b4f4017cfadf7fa89de5378a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "draw",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 1,
+          "0-4": 2,
+          "0-5": 0,
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 2,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 1,
+          "3-4": 1,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 2,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        },
+        {
+          "beacon": {
+            "randomness": "3ce5fc662c15b385ce030b4e52d6d27ea99b12589800b36ce39d017a85d1da28",
+            "round": 34089727,
+            "signature": "98197f5ec7498ea37bb182491ab9ff80a1a67060a8d02537df13c28d5a922915dc74f332e07de47a7731bf25f65579dc"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":0,\"0-4\":1,\"0-5\":0,\"1-2\":0,\"1-3\":1,\"1-4\":0,\"1-5\":1,\"2-3\":0,\"2-4\":1,\"2-5\":0,\"3-4\":0,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":2}",
+          "counter": 0,
+          "eligible_masks": [
+            22,
+            25,
+            26,
+            37,
+            38,
+            41
+          ],
+          "index": 4,
+          "minimum_repeat_cost": 2,
+          "pods": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              4
+            ]
+          ],
+          "round": 2,
+          "sealed_at": 1795072423,
+          "target": 34089727
+        }
+      ]
+    },
+    {
+      "label": "withdraw-open",
+      "hash": "0x26c0dd7d6e96868a318ed48c359ee6d031eb6b1e3754e0271eb97c79e6d79592",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "withdraw",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 1,
+          "0-4": 2,
+          "0-5": 0,
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 2,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 1,
+          "3-4": 1,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 2,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        },
+        {
+          "beacon": {
+            "randomness": "3ce5fc662c15b385ce030b4e52d6d27ea99b12589800b36ce39d017a85d1da28",
+            "round": 34089727,
+            "signature": "98197f5ec7498ea37bb182491ab9ff80a1a67060a8d02537df13c28d5a922915dc74f332e07de47a7731bf25f65579dc"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":0,\"0-4\":1,\"0-5\":0,\"1-2\":0,\"1-3\":1,\"1-4\":0,\"1-5\":1,\"2-3\":0,\"2-4\":1,\"2-5\":0,\"3-4\":0,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":2}",
+          "counter": 0,
+          "eligible_masks": [
+            22,
+            25,
+            26,
+            37,
+            38,
+            41
+          ],
+          "index": 4,
+          "minimum_repeat_cost": 2,
+          "pods": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              4
+            ]
+          ],
+          "round": 2,
+          "sealed_at": 1795072423,
+          "target": 34089727
+        }
+      ]
+    },
+    {
+      "label": "blocked-seal",
+      "hash": "0x18bf07570b6c0e65b293612d483cc6e7393d58b729c70e84bc2acb116a3e27f0",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "seal",
+        "args": []
+      },
+      "error": "Every member must approve",
+      "state": {
+        "approvals": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 1,
+          "0-4": 2,
+          "0-5": 0,
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 2,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 1,
+          "3-4": 1,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 2,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        },
+        {
+          "beacon": {
+            "randomness": "3ce5fc662c15b385ce030b4e52d6d27ea99b12589800b36ce39d017a85d1da28",
+            "round": 34089727,
+            "signature": "98197f5ec7498ea37bb182491ab9ff80a1a67060a8d02537df13c28d5a922915dc74f332e07de47a7731bf25f65579dc"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":0,\"0-4\":1,\"0-5\":0,\"1-2\":0,\"1-3\":1,\"1-4\":0,\"1-5\":1,\"2-3\":0,\"2-4\":1,\"2-5\":0,\"3-4\":0,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":2}",
+          "counter": 0,
+          "eligible_masks": [
+            22,
+            25,
+            26,
+            37,
+            38,
+            41
+          ],
+          "index": 4,
+          "minimum_repeat_cost": 2,
+          "pods": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              4
+            ]
+          ],
+          "round": 2,
+          "sealed_at": 1795072423,
+          "target": 34089727
+        }
+      ]
+    },
+    {
+      "label": "reapprove",
+      "hash": "0xb5f5cdf8d36b5456d6f12c9f9fd901b7e124964e7cbbf9d97223c68d13b38ca2",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "approve",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 1,
+          "0-4": 2,
+          "0-5": 0,
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 2,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 1,
+          "3-4": 1,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 2,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        },
+        {
+          "beacon": {
+            "randomness": "3ce5fc662c15b385ce030b4e52d6d27ea99b12589800b36ce39d017a85d1da28",
+            "round": 34089727,
+            "signature": "98197f5ec7498ea37bb182491ab9ff80a1a67060a8d02537df13c28d5a922915dc74f332e07de47a7731bf25f65579dc"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":0,\"0-4\":1,\"0-5\":0,\"1-2\":0,\"1-3\":1,\"1-4\":0,\"1-5\":1,\"2-3\":0,\"2-4\":1,\"2-5\":0,\"3-4\":0,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":2}",
+          "counter": 0,
+          "eligible_masks": [
+            22,
+            25,
+            26,
+            37,
+            38,
+            41
+          ],
+          "index": 4,
+          "minimum_repeat_cost": 2,
+          "pods": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              4
+            ]
+          ],
+          "round": 2,
+          "sealed_at": 1795072423,
+          "target": 34089727
+        }
+      ]
+    },
+    {
+      "label": "seal-3",
+      "hash": "0x9d415f947cb8415dda9144347196cd4273d61cc829bbe3b25480ffdd6d9c4976",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "seal",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 1,
+          "0-4": 2,
+          "0-5": 0,
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 0,
+          "1-5": 2,
+          "2-3": 0,
+          "2-4": 1,
+          "2-5": 1,
+          "3-4": 1,
+          "3-5": 1,
+          "4-5": 0
+        },
+        "phase": "SEALED",
+        "rounds": 2,
+        "sealed_at": 1795072736,
+        "target": 34089831,
+        "target_time": 1795072857
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        },
+        {
+          "beacon": {
+            "randomness": "3ce5fc662c15b385ce030b4e52d6d27ea99b12589800b36ce39d017a85d1da28",
+            "round": 34089727,
+            "signature": "98197f5ec7498ea37bb182491ab9ff80a1a67060a8d02537df13c28d5a922915dc74f332e07de47a7731bf25f65579dc"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":0,\"0-4\":1,\"0-5\":0,\"1-2\":0,\"1-3\":1,\"1-4\":0,\"1-5\":1,\"2-3\":0,\"2-4\":1,\"2-5\":0,\"3-4\":0,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":2}",
+          "counter": 0,
+          "eligible_masks": [
+            22,
+            25,
+            26,
+            37,
+            38,
+            41
+          ],
+          "index": 4,
+          "minimum_repeat_cost": 2,
+          "pods": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              4
+            ]
+          ],
+          "round": 2,
+          "sealed_at": 1795072423,
+          "target": 34089727
+        }
+      ]
+    },
+    {
+      "label": "draw-3",
+      "hash": "0x778313e9777c3a4d87223d3be633fb2d17b9090bdd096d26a96c9d850fd9596c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "calldata": {
+        "method": "draw",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "approvals": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "domains": [
+          "a",
+          "a",
+          "b",
+          "b",
+          "c",
+          "c"
+        ],
+        "members": [
+          "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+          "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+          "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+          "0x82429bedf893e0450c5b2052ef615d042b14a235",
+          "0xb80a503ccfece555d67d526909a9445d88b04201",
+          "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+        ],
+        "pairings": {
+          "0-1": 0,
+          "0-2": 1,
+          "0-3": 2,
+          "0-4": 2,
+          "0-5": 1,
+          "1-2": 2,
+          "1-3": 1,
+          "1-4": 1,
+          "1-5": 2,
+          "2-3": 0,
+          "2-4": 2,
+          "2-5": 1,
+          "3-4": 1,
+          "3-5": 2,
+          "4-5": 0
+        },
+        "phase": "OPEN",
+        "rounds": 3,
+        "sealed_at": 0,
+        "target": 0,
+        "target_time": 0
+      },
+      "results": [
+        {
+          "beacon": {
+            "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+            "round": 34089658,
+            "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+          "counter": 0,
+          "eligible_masks": [
+            21,
+            22,
+            25,
+            26,
+            37,
+            38,
+            41,
+            42
+          ],
+          "index": 0,
+          "minimum_repeat_cost": 0,
+          "pods": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ]
+          ],
+          "round": 1,
+          "sealed_at": 1795072217,
+          "target": 34089658
+        },
+        {
+          "beacon": {
+            "randomness": "3ce5fc662c15b385ce030b4e52d6d27ea99b12589800b36ce39d017a85d1da28",
+            "round": 34089727,
+            "signature": "98197f5ec7498ea37bb182491ab9ff80a1a67060a8d02537df13c28d5a922915dc74f332e07de47a7731bf25f65579dc"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":0,\"0-4\":1,\"0-5\":0,\"1-2\":0,\"1-3\":1,\"1-4\":0,\"1-5\":1,\"2-3\":0,\"2-4\":1,\"2-5\":0,\"3-4\":0,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":2}",
+          "counter": 0,
+          "eligible_masks": [
+            22,
+            25,
+            26,
+            37,
+            38,
+            41
+          ],
+          "index": 4,
+          "minimum_repeat_cost": 2,
+          "pods": [
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              4
+            ]
+          ],
+          "round": 2,
+          "sealed_at": 1795072423,
+          "target": 34089727
+        },
+        {
+          "beacon": {
+            "randomness": "94934441ac2328585e309e27f3814fd7f415bd523560e4b0730ac1d95ad94b66",
+            "round": 34089831,
+            "signature": "ac98ffc1c202381b13f86f524e0e816e8269cc2bc836df441fac3ad3542c93d123fef35bbb47a7725d55f2e1a9fffc58"
+          },
+          "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+          "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":1,\"0-4\":2,\"0-5\":0,\"1-2\":1,\"1-3\":1,\"1-4\":0,\"1-5\":2,\"2-3\":0,\"2-4\":1,\"2-5\":1,\"3-4\":1,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":3}",
+          "counter": 0,
+          "eligible_masks": [
+            22,
+            26,
+            37,
+            41
+          ],
+          "index": 3,
+          "minimum_repeat_cost": 4,
+          "pods": [
+            [
+              0,
+              3,
+              5
+            ],
+            [
+              1,
+              2,
+              4
+            ]
+          ],
+          "round": 3,
+          "sealed_at": 1795072736,
+          "target": 34089831
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "round": 1,
+      "target": 34089658,
+      "sealed_at": 1795072217,
+      "beacon": {
+        "round": 34089658,
+        "randomness": "adf98fab57f037118a946f4c1bc41acda0cd54c089c668d2436f2204ad3b265f",
+        "signature": "b7935e9a36bf2944356e745d0c3f57edce131416a639a3154b68e22897ab2177d9acb1b4ad3858c9265541c4372c4f6d"
+      },
+      "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+      "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":0,\"0-3\":0,\"0-4\":0,\"0-5\":0,\"1-2\":0,\"1-3\":0,\"1-4\":0,\"1-5\":0,\"2-3\":0,\"2-4\":0,\"2-5\":0,\"3-4\":0,\"3-5\":0,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":1}",
+      "eligible_masks": [
+        21,
+        22,
+        25,
+        26,
+        37,
+        38,
+        41,
+        42
+      ],
+      "minimum_repeat_cost": 0,
+      "index": 0,
+      "counter": 0,
+      "pods": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "target": 34089727,
+      "sealed_at": 1795072423,
+      "beacon": {
+        "round": 34089727,
+        "randomness": "3ce5fc662c15b385ce030b4e52d6d27ea99b12589800b36ce39d017a85d1da28",
+        "signature": "98197f5ec7498ea37bb182491ab9ff80a1a67060a8d02537df13c28d5a922915dc74f332e07de47a7731bf25f65579dc"
+      },
+      "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+      "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":0,\"0-4\":1,\"0-5\":0,\"1-2\":0,\"1-3\":1,\"1-4\":0,\"1-5\":1,\"2-3\":0,\"2-4\":1,\"2-5\":0,\"3-4\":0,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":2}",
+      "eligible_masks": [
+        22,
+        25,
+        26,
+        37,
+        38,
+        41
+      ],
+      "minimum_repeat_cost": 2,
+      "index": 4,
+      "counter": 0,
+      "pods": [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "target": 34089831,
+      "sealed_at": 1795072736,
+      "beacon": {
+        "round": 34089831,
+        "randomness": "94934441ac2328585e309e27f3814fd7f415bd523560e4b0730ac1d95ad94b66",
+        "signature": "ac98ffc1c202381b13f86f524e0e816e8269cc2bc836df441fac3ad3542c93d123fef35bbb47a7725d55f2e1a9fffc58"
+      },
+      "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+      "context": "{\"contract\":\"0x2b53ca2d6b5af1586b5a17cdfd7cfc4bc69253b3\",\"history\":{\"0-1\":0,\"0-2\":1,\"0-3\":1,\"0-4\":2,\"0-5\":0,\"1-2\":1,\"1-3\":1,\"1-4\":0,\"1-5\":2,\"2-3\":0,\"2-4\":1,\"2-5\":1,\"3-4\":1,\"3-5\":1,\"4-5\":0},\"roster\":[[\"0x19a1d619abb867580b0a7e97238cf49d06c781c4\",\"a\"],[\"0x79d462b3f1c814dd9d10ca160fec3941d64cfe97\",\"a\"],[\"0xe138a69e3545b82204bcbf8184a3fe740a839cfd\",\"b\"],[\"0x82429bedf893e0450c5b2052ef615d042b14a235\",\"b\"],[\"0xb80a503ccfece555d67d526909a9445d88b04201\",\"c\"],[\"0xe2f30bb40acc1a8a969459a56526eacd751fd102\",\"c\"]],\"round\":3}",
+      "eligible_masks": [
+        22,
+        26,
+        37,
+        41
+      ],
+      "minimum_repeat_cost": 4,
+      "index": 3,
+      "counter": 0,
+      "pods": [
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    }
+  ],
+  "state": {
+    "approvals": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "domains": [
+      "a",
+      "a",
+      "b",
+      "b",
+      "c",
+      "c"
+    ],
+    "members": [
+      "0x19a1d619abb867580b0a7e97238cf49d06c781c4",
+      "0x79d462b3f1c814dd9d10ca160fec3941d64cfe97",
+      "0xe138a69e3545b82204bcbf8184a3fe740a839cfd",
+      "0x82429bedf893e0450c5b2052ef615d042b14a235",
+      "0xb80a503ccfece555d67d526909a9445d88b04201",
+      "0xe2f30bb40acc1a8a969459a56526eacd751fd102"
+    ],
+    "pairings": {
+      "0-1": 0,
+      "0-2": 1,
+      "0-3": 2,
+      "0-4": 2,
+      "0-5": 1,
+      "1-2": 2,
+      "1-3": 1,
+      "1-4": 1,
+      "1-5": 2,
+      "2-3": 0,
+      "2-4": 2,
+      "2-5": 1,
+      "3-4": 1,
+      "3-5": 2,
+      "4-5": 0
+    },
+    "phase": "OPEN",
+    "rounds": 3,
+    "sealed_at": 0,
+    "target": 0,
+    "target_time": 0
+  }
+}

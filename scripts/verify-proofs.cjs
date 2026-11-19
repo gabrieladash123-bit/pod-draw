@@ -66,6 +66,9 @@ async function main(){
         assert(observed.target===Math.ceil((observed.sealed_at+120-chain.genesis_time)/chain.period)+1
           && observed.target_time===chain.genesis_time+(observed.target-1)*chain.period
           && observed.target_time>=observed.sealed_at+120,'Wrong future beacon target');
+        const observedFinal=Number(raw.current_timestamp);
+        assert(Number(raw.created_timestamp)===observed.sealed_at && Number.isSafeInteger(observedFinal)
+          && observedFinal<observed.target_time,'Seal was not observed finalized before the scheduled beacon');
         if(results.length)assert(observed.target>results.at(-1).target,'Reused old beacon round');
         state={...state,phase:'SEALED',target:observed.target,sealed_at:observed.sealed_at,target_time:observed.target_time};
       }else if(method==='draw'){

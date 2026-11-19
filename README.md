@@ -2,11 +2,13 @@
 
 PodDraw assigns a fixed roster to two labeled pods over repeated rounds. Members from the same configured fault domain must be separated. Among feasible balanced partitions, the contract minimizes the total number of previous meetings of same-pod pairs, then samples uniformly among tied optima using a fixed future drand beacon round.
 
+Deployed on gasless GenLayer StudioNet at [0x2B53ca2D6b5AF1586b5a17CDFD7Cfc4bc69253B3](https://explorer-studio.genlayer.com/address/0x2B53ca2D6b5AF1586b5a17CDFD7Cfc4bc69253B3). [Deployment transaction](https://explorer-studio.genlayer.com/tx/0x7a2fc49351f55c129d1e1b5faee6164723e2df8b6f8181e81e2f9f9d44031459) · [Nineteen finalized receipts and three draws](proofs/README.md) · [Submission text](SUBMISSION.md).
+
 ## State and consent
 
 Deploy with 4–8 distinct signing wallets and matching domain labels. Every wallet must approve participation. Consent continues across rounds until withdrawn while OPEN. Anyone may seal a unanimously approved roster. Sealing selects the first quicknet round scheduled at least 120 seconds after the transaction timestamp and independently checks both relays' latest published rounds are earlier.
 
-SEALED locks consent, the roster, pairing history and target round. There is no cancellation or target replacement. Once due, anyone draws. Failed source retrieval leaves the same target locked for retry. Successful draws append an immutable result, increment each co-pod pair's meeting count and reopen consent. Each instance supports at most 32 draws.
+SEALED locks consent, the roster, pairing history and target round until a successful draw. Once due, anyone draws. Failed source retrieval leaves the same target locked for retry. Successful draws append an immutable result, increment each co-pod pair's meeting count and reopen consent. Each instance supports at most 32 draws.
 
 The two pods have ceiling(n/2) and floor(n/2) members. Alpha and beta are distinct labels. All feasible alpha membership masks are enumerated in increasing numeric order. The selected mask is sampled from the complete minimum-cost set. SHA-256 expansion includes the contract, roster, draw number, prior pair counts and beacon randomness. Rejection sampling avoids modulo bias.
 
@@ -16,7 +18,7 @@ For each source observation, leader and validators independently fetch full resp
 
 The contract uses GenLayer web consensus over the two HTTPS relays for beacon authenticity. Its signature-to-randomness hash check verifies internal consistency. Full BLS signature verification is performed separately by the proof tooling, using the pinned quicknet public key. The relays serve the same drand network. Configured fault-domain labels are participant-approved policy inputs. The contract assigns pods under those inputs and does not measure physical infrastructure independence.
 
-The future gate assumes relays promptly publish their latest round and that GenLayer's transaction timestamps are accurate. The fixed target prevents retry callers from choosing a fresh seed after seeing an outcome. Permissionless callers can still choose whether and when to open another round, and separate instances can be created.
+The future gate assumes relays promptly publish their latest round and that GenLayer's transaction timestamps are accurate. Fairness also requires sealing to become final before the target beacon is published. This instance uses a 120-second scheduling buffer. The fixed target prevents retry callers from choosing a fresh seed after seeing an outcome. Permissionless callers can still choose whether and when to open another round, and separate instances can be created.
 
 ## Methods
 
